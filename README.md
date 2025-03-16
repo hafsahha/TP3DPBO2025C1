@@ -68,4 +68,8 @@ Berikut penjelasan diagram kelas berdasarkan diagram yang telah dibuat:
   
 - **Composition**: 
   - **Smartphone**, **Laptop**, dan **Komputer** memiliki komponen-komponen seperti **Baterai**, **RAM**, **Storage**, **CPU**, dan komponen lainnya.
+ 
+## Dokumentasi CPP
+![image](https://github.com/user-attachments/assets/938083e6-ee10-40fa-8957-1522f6f4681d)
+
   
