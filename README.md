@@ -29,9 +29,11 @@ Berikut penjelasan diagram kelas berdasarkan diagram yang telah dibuat:
 - **Perangkat Elektronik** adalah kelas abstrak yang memiliki atribut umum untuk semua jenis perangkat elektronik:
   - `merk`: Merk perangkat elektronik (misalnya Samsung, Lenovo, dll).
   - `nama`: Nama perangkat elektronik (misalnya "Smartphone", "Laptop", "Komputer").
+  - `tahun` : Tahun rilis perangkat eltronik (misalnya "2023", "2012")
+  - `komponen[]`: Komponen yang ada di perangkat elektronik (misalnya CPU, baterai).
   - Selain itu, kelas ini memiliki **setter** dan **getter** untuk atribut tersebut.
   
-  Kelas **Perangkat Elektronik** digunakan sebagai dasar untuk kelas-kelas **Smartphone**, **Laptop**, dan **Komputer**. Kelas ini juga mewarisi komponen-komponen yang ada, tetapi **komponen** tidak di-*extend* melainkan di-*compose* ke dalam kelas perangkat elektronik ini.
+  Kelas **Perangkat Elektronik** digunakan sebagai dasar untuk kelas-kelas **Smartphone**, **Laptop**, dan **Komputer**. Kelas ini juga mewarisi komponen-komponen yang ada.
 
 ### **4. Hubungan Antar Kelas: Composition & Inheritance**
 - **Inheritance (Pewarisan)**:
